@@ -1,0 +1,16 @@
+{
+  "name": "zophardownloader",
+  "version": "1.0.0",
+  "description": "A CLI tool for downloading files from zophar.net",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Denis Vargas Rivero",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "request": "^2.88.2"
+  }
+}
