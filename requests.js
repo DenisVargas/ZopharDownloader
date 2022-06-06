@@ -7,7 +7,8 @@ var CompUrlBreakDown = /(https?):\/\/(\S+)\/(.*)$/gm; // 1={Protocolo} 2={Domini
 var portmatch = /:(\d{0,5})/gm;
 
 var CanDownload = true;
-var activeDownloads = {count:0};
+//https://flexiple.com/javascript-dictionary/
+var activeDownloads = {count:0}; //https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
 
 //Alternativa
 //https://www.npmjs.com/package/superagent
